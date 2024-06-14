@@ -1,0 +1,264 @@
+.ignore,
+.ignore1 {
+  height: 0;
+  width: 0;
+  position: relative;
+}
+.widthChangeSizeHere {
+  height: 0;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.ignore2,
+.ignore3 {
+  height: 0;
+  width: 0;
+  position: relative;
+  flex-shrink: 0;
+}
+.heightChangeSizeHere,
+.iconWrapper {
+  height: 10px;
+  width: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.heightChangeSizeHere {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) var(--padding-12xs-1) 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  transform: rotate(-90deg);
+}
+.iconWrapper {
+  position: relative;
+  object-fit: cover;
+  min-height: 10px;
+}
+.componentspaginationPrev,
+.icon,
+.iconWrapperH {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.iconWrapperH {
+  width: 10px;
+  flex-direction: row;
+}
+.componentspaginationPrev,
+.icon {
+  background-color: var(--hitbox);
+  overflow: hidden;
+  flex-direction: column;
+}
+.componentspaginationPrev {
+  width: 30px;
+  border-radius: 2.66px 0 0 2.66px;
+  border: 0.8px solid var(--gray-300);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-6xs) var(--padding-4xs) var(--padding-7xs);
+}
+.text {
+  position: relative;
+  line-height: 150%;
+}
+.componentspaginationItem,
+.texttext {
+  background-color: var(--hitbox);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.componentspaginationItem {
+  background-color: var(--primary-color-blue);
+  align-items: center;
+  padding: var(--padding-7xs-4) var(--padding-smi) var(--padding-7xs-3);
+  color: var(--gray-white);
+}
+.text1 {
+  position: relative;
+  line-height: 150%;
+}
+.componentspaginationItem1,
+.texttext1 {
+  background-color: var(--hitbox);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.componentspaginationItem1 {
+  flex: 1;
+  border: 0.8px solid var(--gray-300);
+  align-items: center;
+  padding: var(--padding-9xs) var(--padding-2xs);
+}
+.text2 {
+  position: relative;
+  line-height: 150%;
+}
+.componentspaginationItem2,
+.texttext2 {
+  background-color: var(--hitbox);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.componentspaginationItem2 {
+  flex: 1;
+  border: 0.8px solid var(--gray-300);
+  align-items: center;
+  padding: var(--padding-9xs) var(--padding-2xs);
+}
+.text3 {
+  position: relative;
+  line-height: 150%;
+}
+.componentspaginationItem3,
+.texttext3 {
+  background-color: var(--hitbox);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.componentspaginationItem3 {
+  flex: 1;
+  border: 0.8px solid var(--gray-300);
+  align-items: center;
+  padding: var(--padding-9xs) var(--padding-2xs);
+}
+.text4 {
+  position: relative;
+  line-height: 150%;
+}
+.componentspaginationItem4,
+.texttext4 {
+  background-color: var(--hitbox);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.componentspaginationItem4 {
+  flex: 1;
+  border: 0.8px solid var(--gray-300);
+  align-items: center;
+  padding: var(--padding-9xs) var(--padding-2xs);
+}
+.ignore4,
+.ignore5 {
+  height: 0;
+  width: 0;
+  position: relative;
+}
+.widthChangeSizeHere1 {
+  height: 0;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.ignore6,
+.ignore7 {
+  height: 0;
+  width: 0;
+  position: relative;
+  flex-shrink: 0;
+}
+.heightChangeSizeHere1,
+.iconWrapper1 {
+  height: 10px;
+  width: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.heightChangeSizeHere1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) var(--padding-12xs-1) 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  transform: rotate(-90deg);
+}
+.iconWrapper1 {
+  position: relative;
+  object-fit: cover;
+  min-height: 10px;
+}
+.componentspaginationNext,
+.icon1,
+.iconWrapperH1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.iconWrapperH1 {
+  width: 10px;
+  flex-direction: row;
+}
+.componentspaginationNext,
+.icon1 {
+  background-color: var(--hitbox);
+  overflow: hidden;
+  flex-direction: column;
+}
+.componentspaginationNext {
+  width: 30px;
+  border-radius: 0 3.32px 3.32px 0;
+  border: 0.8px solid var(--gray-300);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  justify-content: center;
+  padding: var(--padding-6xs) var(--padding-4xs) var(--padding-7xs);
+}
+.pagination2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.pagination,
+.pagination1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pagination1 {
+  width: 210px;
+}
+.pagination {
+  align-self: stretch;
+  padding: var(--padding-5xl) var(--padding-xl);
+  z-index: 4;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--primary-color-blue);
+  font-family: var(--font-montserrat);
+}

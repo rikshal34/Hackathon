@@ -1,0 +1,93 @@
+.macbookPro {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.productName {
+  flex: 0.8909;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-xl) var(--padding-3xs)
+    var(--padding-3xs);
+}
+.codePlaceholder {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.itemCode {
+  flex: 0.4111;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-18xl);
+}
+.laptop {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.itemType {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.pricePlaceholder {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.itemPrice {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.quantityPlaceholder {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.itemQuantity {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.unsplashtpuao8gvs58Icon {
+  height: 57px;
+  width: 57px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  object-fit: contain;
+}
+.itemDetails {
+  width: 717px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-ghostwhite);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-2xs-5) var(--padding-mid) var(--padding-2xs-5)
+    var(--padding-9xs);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  min-width: 717px;
+  min-height: 78px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--gray-900);
+  font-family: var(--font-montserrat);
+}

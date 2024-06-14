@@ -21,13 +21,17 @@ body {
   --font-size-xs-3: 11.3px;
   --font-size-2xs: 11px;
   --font-size-sm-7: 13.7px;
+  --font-size-3xs: 10px;
+  --font-size-sm: 14px;
 
   /* Colors */
   --gray-white: #fff;
   --gray-400: #ced4da;
-  --color-black: #000;
+  --dark: #000;
   --color-dimgray: #4c4a4f;
+  --not-black: #272727;
   --gray-900: #212529;
+  --components-checkbox-border: rgba(0, 0, 0, 0.15);
   --hitbox: rgba(255, 255, 255, 0);
   --color-deepskyblue-100: #51cdff;
   --primary-color-blue: #04b4fc;
@@ -43,6 +47,8 @@ body {
   --color-blueviolet: #6c11d9;
   --color-mediumslateblue: #ad69ff;
   --color-mediumpurple: #c08bff;
+  --gray-300: #dee2e6;
+  --color-dodgerblue: #3b86ff;
 
   /* Gaps */
   --gap-sm: 14px;
@@ -69,7 +75,10 @@ body {
   --gap-7xs-1: 5.1px;
   --gap-smi-9: 12.9px;
   --gap-base-4: 15.4px;
+  --gap-4xs: 9px;
   --gap-lg: 18px;
+  --gap-2xs-9: 10.9px;
+  --gap-2xs: 11px;
 
   /* Paddings */
   --padding-xs: 12px;
@@ -88,6 +97,7 @@ body {
   --padding-5xs: 8px;
   --padding-base: 16px;
   --padding-13xl: 32px;
+  --padding-28xl: 47px;
   --padding-sm: 14px;
   --padding-20xl: 39px;
   --padding-xs-2: 11.2px;
@@ -119,7 +129,18 @@ body {
   --padding-14xl: 33px;
   --padding-mid-1: 17.1px;
   --padding-108xl: 127px;
+  --padding-6xs: 7px;
   --padding-38xl: 57px;
+  --padding-9xs: 4px;
+  --padding-2xs: 11px;
+  --padding-7xs-4: 5.4px;
+  --padding-smi: 13px;
+  --padding-7xs-3: 5.3px;
+  --padding-2xs-5: 10.5px;
+  --padding-16xl: 35px;
+  --padding-lg: 18px;
+  --padding-31xl: 50px;
+  --padding-5xs-2: 7.2px;
 
   /* Border radiuses */
   --br-9xl: 28px;
@@ -130,4 +151,9 @@ body {
   --br-425xl: 444px;
   --br-6xs-9: 6.9px;
   --br-980xl: 999px;
+  --br-xl: 20px;
+  --br-9xs-3: 3.3px;
+  --br-10xs-7: 2.7px;
+  --br-4xs-1: 8.1px;
+  --br-6xl-6: 25.6px;
 }
