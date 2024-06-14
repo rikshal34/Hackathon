@@ -1,0 +1,112 @@
+.ignore,
+.ignore1 {
+  height: 0;
+  width: 0;
+  position: relative;
+}
+.widthChangeSizeHere {
+  height: 0;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.ignore2,
+.ignore3 {
+  height: 0;
+  width: 0;
+  position: relative;
+  flex-shrink: 0;
+}
+.heightChangeSizeHere,
+.iconWrapper1 {
+  height: 16px;
+  width: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.heightChangeSizeHere {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  transform: rotate(-90deg);
+}
+.iconWrapper1 {
+  position: relative;
+  object-fit: cover;
+  min-height: 16px;
+}
+.iconWrapperH {
+  width: 16px;
+  flex-direction: row;
+  align-items: center;
+}
+.iconWrapper,
+.iconWrapperH,
+.iconWrapperWrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.iconWrapper {
+  background-color: var(--hitbox);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+}
+.iconWrapperWrapper {
+  height: 32px;
+  width: 32px;
+  border-radius: var(--br-425xl);
+  background-color: var(--color-azure);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.k,
+.todaysSale {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+}
+.todaysSale {
+  font-size: var(--font-size-2xs);
+  font-weight: 500;
+}
+.dataValues {
+  flex-direction: column;
+}
+.dataValues,
+.frameParent,
+.salesDataInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.salesDataInner {
+  flex: 1;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  border-radius: var(--br-5xs);
+  background-color: var(--gray-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-base) var(--padding-4xl) var(--padding-base)
+    var(--padding-5xl);
+  box-sizing: border-box;
+  min-width: 106px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--text-color-1);
+  font-family: var(--font-montserrat);
+}

@@ -1,0 +1,489 @@
+.salesOrderHeader {
+  width: 100%;
+  height: 38px;
+  position: absolute;
+  margin: 0 !important;
+  top: 78px;
+  right: 0;
+  left: 0;
+  background-color: var(--color-ghostwhite);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.salesOrder1 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+}
+.salesOrderWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 95px;
+  max-width: 100%;
+}
+.text {
+  position: relative;
+  line-height: 150%;
+}
+.iconRight {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.salesOrderFilter,
+.texttext {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.texttext {
+  background-color: var(--hitbox);
+  overflow: hidden;
+  justify-content: center;
+}
+.salesOrderFilter {
+  justify-content: flex-start;
+  color: var(--primary-color-blue);
+}
+.salesOrderContent,
+.salesOrderTitleWrapper {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.salesOrderTitleWrapper {
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-mid-1);
+}
+.salesOrderContent {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.channel {
+  position: relative;
+  line-height: 150%;
+  font-weight: 700;
+}
+.orderStatusHeaderLabels {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  color: var(--text-color-1);
+}
+.directSales {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.orderStatusValues {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-10xl) var(--padding-3xs)
+    var(--padding-3xs);
+}
+.wholesale {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.wholesaleValues {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-18xl) var(--padding-3xs)
+    var(--padding-3xs);
+}
+.retail {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.orderStatusValues1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.orderStatusHeaders {
+  width: 111.7px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.draft {
+  position: relative;
+  line-height: 150%;
+  font-weight: 700;
+}
+.draftWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  color: var(--text-color-1);
+}
+.div {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.div1 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.div2 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.frameDiv,
+.orderStatusHeaders1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameDiv {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-3xs);
+}
+.orderStatusHeaders1 {
+  width: 111.7px;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+}
+.confirmed {
+  position: relative;
+  line-height: 150%;
+  font-weight: 700;
+}
+.confirmedWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-15xl) var(--padding-3xs)
+    var(--padding-3xs);
+  color: var(--text-color-1);
+}
+.div3 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.wrapper1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.div4 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.wrapper2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.div5 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.orderStatusHeaders2,
+.wrapper3 {
+  display: flex;
+  justify-content: flex-start;
+}
+.wrapper3 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-3xs);
+}
+.orderStatusHeaders2 {
+  width: 111.7px;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+}
+.packed {
+  position: relative;
+  line-height: 150%;
+  font-weight: 700;
+}
+.packedWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  color: var(--text-color-1);
+}
+.div6 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.wrapper4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.div7 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.wrapper5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.div8 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.orderStatusHeaders3,
+.wrapper6 {
+  display: flex;
+  justify-content: flex-start;
+}
+.wrapper6 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-3xs);
+}
+.orderStatusHeaders3 {
+  width: 111.7px;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+}
+.shipped {
+  position: relative;
+  line-height: 150%;
+  font-weight: 700;
+}
+.shippedWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  color: var(--text-color-1);
+}
+.div9 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.wrapper7 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.div10 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.wrapper8 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.div11 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.orderStatusHeaders4,
+.wrapper9 {
+  display: flex;
+  justify-content: flex-start;
+}
+.wrapper9 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-3xs);
+}
+.orderStatusHeaders4 {
+  width: 111.7px;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+}
+.invoiced {
+  position: relative;
+  line-height: 150%;
+  font-weight: 700;
+}
+.invoicedWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  color: var(--text-color-1);
+}
+.div12 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.wrapper10 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.div13 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.wrapper11 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.div14 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.wrapper12 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.orderStatusHeaders5,
+.salesOrder,
+.salesOrderStatus {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.orderStatusHeaders5 {
+  width: 111.7px;
+  flex-shrink: 0;
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.salesOrder,
+.salesOrderStatus {
+  max-width: 100%;
+  z-index: 1;
+}
+.salesOrderStatus {
+  width: 750px;
+  overflow-x: auto;
+  flex-direction: row;
+  gap: var(--gap-base);
+  font-size: var(--font-size-xs);
+  color: var(--gray-900);
+}
+.salesOrder {
+  width: 789px;
+  background-color: var(--gray-white);
+  border-bottom: 1px solid var(--gray-400);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-6xl) var(--padding-lgi) var(--padding-sm)
+    var(--padding-xl);
+  position: relative;
+  gap: var(--gap-10xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
